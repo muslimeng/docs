@@ -1,0 +1,36 @@
+---
+title: Welcome to the MES docs!
+description: The active (and open-source) knowledgebase for everything MES and Michigan Engineering!
+template: splash
+hero:
+  tagline: The active (and open-source) knowledgebase for everything MES and Michigan Engineering.
+  image:
+    file: ../../assets/mes-logo.png
+  actions:
+    - text: Get started
+      link: /welcome/the-what/
+      icon: right-arrow
+      variant: primary
+    - text: Learn about contributing
+      link: https://github.com/muslimeng/docs
+      icon: external
+---
+
+import { Card, CardGrid } from '@astrojs/starlight/components';
+
+## What's on this site?
+
+<CardGrid stagger>
+  <Card title="Course Insight" icon="open-book">
+    Read up on the latest about classes you're going to take, written by students who have taken them!
+  </Card>
+  <Card title="Something you make!" icon="add-document">
+    You can contribute to the sections already here, or add a page about a personal project/experience you've had!
+  </Card>
+  <Card title="MES Resources" icon="setting">
+    Links to, and a general archive of resources that MES has collected over the years.
+  </Card>
+  <Card title="MES Happenings" icon="pencil">
+    Events, registration info, and everything that could tie to MES events or organizations logistics.
+  </Card>
+</CardGrid>
