@@ -15,6 +15,12 @@ export default defineConfig({
             { label: 'How to Contribute', link: '/welcome/contribute' },
             { label: 'MES on Social Media', link: '/welcome/socials' },
           ],
+        },
+        {
+          label: 'Course Docs',
+          items: [
+            { label: 'EECS280', link: '/courses/eecs280' },
+          ]
         }
       ],
     }),
